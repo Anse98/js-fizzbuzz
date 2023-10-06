@@ -17,3 +17,40 @@ body {
   font-size: 60px;
   font-family: Verdana, Tahoma, sans-serif;
 }
+
+#container {
+  padding: 0 12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  row-gap: 10px;
+  column-gap: 12px;
+  justify-content: center;
+}
+
+
+.box {
+  flex-basis: calc(120px);
+  aspect-ratio: 1;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.bg-chocolate {
+  background-color: chocolate;
+}
+
+.bg-grey {
+  background-color:grey;
+}
+
+.bg-goldenrod {
+  background-color: goldenrod;
+}
+
+.bg-blue {
+  background-color: #1389B2;
+}
