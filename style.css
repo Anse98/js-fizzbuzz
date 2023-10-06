@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #083B4C;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
